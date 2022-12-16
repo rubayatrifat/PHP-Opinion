@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: candara;
+}
+
+
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.allert {
+	margin-top: 5px;
+    margin-bottom: 7px;
+	color: red;
+	font-size: 17px;
+}
+h1{
+    color: blueviolet;
+    margin-bottom: 10px;
+}
+input {
+	display: block;
+	margin-bottom: 15px;
+}
+.input-txt{
+    padding: 7px 10px; 
+}
+.input-sub {
+	padding: 9px 16px;
+	border: none;
+	background: darkkhaki;
+	color: #fff;
+	border-radius: 4px;
+	font-size: 14px;
+	font-weight: 700;
+	cursor: pointer;
+}
+.txt {
+	text-align: center;
+	background: green;
+	display: table;
+	margin: auto;
+	color: #fff;
+	font-weight: 700;
+	padding: 20px;
+	margin-top: 39px;
+}
